@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<div class= "divbody">
+
+<body>
+
+    <header class="navbar">
+        <img src="C:\Users\suyas\OneDrive\Desktop\Fabrista\static\logoblackH.png" alt="logo" id="logo">
+        <ul class="links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/shop">Shop</a></li>
+        </ul>
+        <div>
+            <!--<a href="tel:7263863393">--><img src="C:\Users\suyas\OneDrive\Desktop\Fabrista\static\WhatsApp Image 2023-12-16 at 19.34.44.jpeg" alt="logo1" id="logo">
+              <a href="/account"><i class="fa-solid fa-user" id="user"></i>
+        </div>
+      
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+            <div class="dropdown_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </div>
+        </div>
+      </header>
+      
+      <!--navbar end-->
+
+
+
+<div class="grid">
+
+<div id="signup" class="s2">
+    <form method="post" class="s2-content">  
+      {% csrf_token %}   
+       <div class="container1">
+            <img alt="logo" href="" id="login-logo">
+            <h1>Sign Up For An Account</h1>
+            <label for="name" name="full_name">Full Name:</label>
+            <!--{{form.full_name}}-->
+           <input type="text" placeholder="Enter ypur full name" name="full_name" id="name">
+
+            <label for="address" name="address">Address:</label>
+            <!--{{form.address}}-->
+            <input type="text" placeholder="Enter your address" name="address" id="address">
+
+            <label for="number" name="contact_number">Contact Number:</label>
+            <!--{{form.contact_number}}-->
+            <input type="text" placeholder="Enter whatsapp number" name="contact_number" id="number">
+            
+            <label for="email" name="email">Email:</label>
+            <!--{{form.email}}-->
+            <input type="email" placeholder="Enter your email" name="email" required="" id="email" required>
+
+            <label for="password" name="password1">Password:</label>
+            <!--{{form.password1}}-->
+            <input type="password" placeholder="Enter your password" name="password" required="" id="password" required>
+
+            <label for="password1" name="password1">Confirm Password:</label>
+            <!--{{form.password2}}-->
+            <input type="password" placeholder="Enter your password" name="password1" required="" id="password1" required>
+            
+        </div>
+
+        <div class="clearfix">
+            <div class="container grid-2">
+                <div width="100%">
+                    <button type="button" class="cancelbtn" >Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+                <p>Already have an account? <a href="/login">Log In.</a></p>
+            </div>
+        </div>
+    </form>
+</div>
+<h1 class="grid-item">Hello</h1>
+
+</div>
+
+
+
+
+<!--Footer Start-->
+<div class="footer">
+    <div class="footer-col">
+      <h1>Company</h1>
+      <h4><a href="about.html" id="footer-about">About</a></h4>
+      <h4>T-shirt Idea</h4>
+      <h4><a href="blog.html" id="footer-blog">Blog</a></h4>
+      <h4>Work With Us</h4>
+      <h4>Privacy & Conditions</h4>
+      <h4>Sitemap</h4>
+    </div>
+    <div class="footer-col">
+      <h1>Customer Support</h1>
+      <h4>Contact us</h4>
+      <h4>FAQ's</h4>
+      <h4>Track My Order</h4>
+      <h4>Shipping & Return Policy</h4>
+      <h4>Wash Care Instructions</h4>
+    </div>
+    <div class="footer-col">
+      <h1>Contact us</h1>
+      <p>Fabrista Clothing Pvt. Ltd. <br>Vishram Bag Lane <br>Main Road <br>Nashik 422001</p>
+      <h4>Phone: +91 8669532966</h4>
+      <h4>Email: fabristaclothing@gmail.com</h4>
+    </div>
+    <div class="footer-col">
+      <h1>Important Link</h1>
+      <h4><a href="/Polo" id="footer-ptshirt">Polo T-shirt</a></h4>
+      <h4><a href="RoundNeckTshirt.html" id="footer-rntshirt">Round Neck T-shirt</a></h4>
+      <h4><a href="jersey.html" id="footer-jersey">Sports Jersey</a></h4>
+      <h4><a href="CoupleTshirt.html" id="footer-couptshirts">Couple T-shirt</a></h4>
+      <h4><a href="ideas.html" id="footer-ideas">T-shirt Ides's</a></h4>
+      <h4><a href="hoodie.html" id="footer-hoodie">Hoodies</a></h4>
+      <h4><a href="cap.html" id="footer-hoodie">Caps</a></h4>
+      <h4><a href="screen.html" id="footer-screen">Screen Printing</a></h4>
+      <h4><a href="Sublimation.html" id="footer-Sublimation">Sublimation Print</a></h4>
+      <h4><a href="embroidery.html" id="footer-embroidery">Embroidery</a></h4>
+      <h4><a href="dtf.html" id="footer-dtf">DTF Print</a></h4>
+    </div>
+  </div>
+  <!--Footer End-->
+<!-- end of signup form  -->
+</body>
+</html>

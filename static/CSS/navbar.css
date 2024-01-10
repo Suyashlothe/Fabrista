@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: azure;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgba(0, 106, 255, 0.942);
+}
+
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1500px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(193, 190, 190));
+    filter: drop-shadow(4px 4px 4px rgb(214, 214, 214));
+    
+}
+
+.navbar #logo{
+    width: 17%;
+    height: 100%;    width: 15%;
+    height: 100%;
+    padding: 5px;
+}
+
+.navbar #logo1{
+    width: 20%;
+    height: 90%;
+}
+
+.navbar .toggle_btn{
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+/* Responsive Navbar */
+
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+
+/* Dropdown */
+/*.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 73, 73, 0.893);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 240px;
+
+}
+
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+    }
+}*/
+
+/*
+
+    .navbar .toggle_btn{
+        display: block;
+        color: #000000;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .dropdown_menu{
+        display: none;
+        position: absolute;
+        right: 2rem;
+        top: 60px;
+        height: 0;
+        width: 300px;
+        background: rgba(255, 73, 73, 0.893);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        z-index: 1; /* Ensure the dropdown is on top of other elements */
+  /*  }
+
+    .dropdown_menu.open{
+        height: 240px;
+    }
+
+    .dropdown_menu li{
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toggle_btn i{
+        font-size: 1.5rem;
+    }
+}*/

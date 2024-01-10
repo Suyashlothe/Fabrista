@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body{
+    height: 100vh;
+    background-color:  #ffffff;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  a:hover{
+    color: rgba(0, 106, 255, 0.942);
+  }
+  
+  
+  header{
+    position: relative;
+    padding: 0 2rem;
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1500px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(193, 190, 190));
+    filter: drop-shadow(4px 4px 4px rgb(214, 214, 214));
+  }
+  
+  .navbar #logo{
+    width: 15%;
+    height: 100%;  
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .navbar #logo1{
+    width: 15%;
+    height: 100%;    
+    height: 100%;
+    padding: 5px;
+  }
+  
+  #logo1:hover{
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(45, 255, 34));
+    filter: drop-shadow(4px 4px 4px rgb(45, 255, 34));
+  }
+  
+  .navbar .toggle_btn{
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .navbar .links{
+    display: flex;
+    gap: 2rem;
+  }
+  /* Nevbar End */
+
+
+  /* Footer start */
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #1f1f1f;
+    padding: 10px;
+    color: white;
+  }
+  .footer-col {
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer-col h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  .footer-col h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: #bbb;
+  }
+  .footer-col p{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #bbb;
+  }
+  
+  
+  
+  #footer-about{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-about:hover{
+    color: white;
+  }
+  
+  #footer-blog{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-blog:hover{
+    color: white;
+  }
+  
+  #footer-ptshirt{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-ptshirt:hover{
+    color: white;
+  }
+  
+  
+  #footer-rntshirt{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-rntshirt:hover{
+    color: white;
+  }
+  
+  
+  #footer-jersey{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-jersey:hover{
+    color: white;
+  }
+  
+  
+  #footer-couptshirts{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-couptshirts:hover{
+    color: white;
+  }
+  
+  #footer-ideas{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-ideas:hover{
+    color: white;
+  }
+  
+  #footer-hoodie{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-hoodie:hover{
+    color: white;
+  }
+  
+  #footer-screen{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-screen:hover{
+    color: white;
+  }
+  
+  #footer-Sublimation{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-Sublimation:hover{
+    color: white;
+  }
+  
+  #footer-embroidery{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-embroidery:hover{
+    color: white;
+  }
+  
+  #footer-dtf{
+    color: #bbb;
+    text-decoration: none;
+  }
+  #footer-dtf:hover{
+    color: white;
+  }
+  /* Footer end */
